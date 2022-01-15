@@ -1,0 +1,12 @@
+
+<div>
+  <h1>{{marvel.name}}</h1> 
+  <img alt= "{{marvel.name}}" src="{{marvel.thumbnail.path}}/portrait_small.jpg"> 
+  <p>{{{marvel.description}}}</p> 
+  <h2>Comics</h2>
+   <ul>
+      {{#each marvelArray.items}}
+        <li>{{this.name}}</li>
+      {{/each}}
+    </ul>
+</div>

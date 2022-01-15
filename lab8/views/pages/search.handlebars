@@ -1,0 +1,17 @@
+
+<h1>Characters Found</h1>
+
+<h2>{{searchterm}}</h2>
+ {{#if marvel}}
+ <ul>
+      {{#each marvel}}
+        <li><a href="/characters/{{id}}">{{name}}</a></li>
+      {{/each}}
+    </ul> 
+{{else}}
+ <p class="not-found">We're sorry, but no results were found for {{searchterm}}.</p>
+{{/if}}
+<a href="/">Make another search</a>
+
+<p class="error">{{error}}</p>
+

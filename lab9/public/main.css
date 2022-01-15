@@ -1,0 +1,78 @@
+body {background-color:lightyellow;}
+  
+  
+  
+   header {
+    border-bottom: 1px solid #afafaf;
+    text-align: center;
+  }
+  
+  footer {
+    border-top: 1px solid #afafaf;
+    text-align: center;
+    font-size: 15pt;
+  } 
+  
+  textarea[id=string]
+  {
+    margin-left: 595px;
+    margin-top: 100px;
+  }
+  
+  
+  button
+  {
+    position:absolute;
+    top: 42%;
+    left: 48.5%;
+  } 
+
+  button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+  }
+
+   ol {
+    padding-left: 575px;
+    padding-top: 45px;
+    list-style-position: inside;
+  } 
+
+
+  li{
+    padding-top: 10px;
+    font-size:20px;
+
+  }
+  
+  
+  h1{
+    color: seagreen;
+    text-align: center;
+    }
+  
+  p{
+    color:seagreen;
+    text-align: center;
+}
+  
+  
+  .is-palindrome {
+    color: #0000FF;
+  }
+  
+  .not-palindrome {
+    color: #FF0000;
+  }
+
+  div[id='error-container']
+  {
+    font-size: 20px;
+    color:darkviolet;
+    text-align: center;
+  }
+  
+  

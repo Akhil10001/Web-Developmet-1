@@ -1,0 +1,16 @@
+  
+<h1>Character Finder</h1>
+
+<p>
+  This form will find the character from the Marvel API provided and show the relevant results<br>
+  It represends all the links for the characters present in the data and if we click on them it will show the
+  corresponding character.
+</p>
+
+        <form action="/search" method="POST" class="new-form">
+    <label>
+      <input type="text" name="searchTerm" placeholder="searchTerm"  class="full-width-input"/>
+    </label>
+    <button type="submit">Search</button>
+        </form>
+ <p class="error">{{error}}</p>
