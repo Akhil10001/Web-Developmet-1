@@ -1,1 +1,1 @@
-cs-546-Web-Developmet-1
+CS-546-Web-Developmet-1
